@@ -9,7 +9,7 @@ function Window() {
         }
     })
 
-    Win.loadFile('src/index.html')
+    Win.loadFile('src/index.html');
 }
 
 app.whenReady().then(Window);
