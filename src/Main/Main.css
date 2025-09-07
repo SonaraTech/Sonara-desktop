@@ -1,0 +1,44 @@
+html {
+    height:100vh;
+    margin:0;
+}
+body {
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    height:100%;
+    margin:0;
+}
+
+#Main {
+    padding:20px;
+}
+
+/* #Calls, #CreateCall {
+    color:white;
+    background-color:black;
+    width:50%;
+    height:100%;
+    border:2px solid white;
+    border-radius:15px;
+} */
+
+
+#Calls, #CreateCall {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Calls {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+#CreateCall {
+    background-color: #333;
+    color: #fff;
+}
